@@ -15,7 +15,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 70px;
 }
 
 h2 {
@@ -85,4 +85,39 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  h3,
+  .email-link {
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .name-heading{
+    font-size: 40px;
+  }
+ 
+  .project-link{
+    display: block;
+    margin: 0 20px;
+    padding: 15px;
+    text-align: center;
+  }
+}
+@media(min-width: 576px){
+   .col-sm-6{
+    width: 50%;
+    flex: 0 0 auto;
+  }
+
 }
